@@ -2,7 +2,8 @@
 This little script enables you to do a simple ldap (AD) search from linux without the faf of installing ldap-blah libs etc and openssl blah.\
 
 How To Install:
-$ git clone https://github.com/jonlocke/adsearch;
+
+$ git clone https://github.com/jonlocke/adsearch
 
 $ cd adsearch
 
