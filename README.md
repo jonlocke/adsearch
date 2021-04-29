@@ -9,7 +9,7 @@ $ cd adsearch
 
 CENTOS/RHEL: 
 
-$ yum -y install ldap-tools |
+$ yum -y install ldap-tools 
 
 UBUNTU/Debian: 
 
