@@ -13,12 +13,9 @@ UBUNTU/Debian: apt-get -y install ldap-tools
 
 Examples:
 
-./adsearch.sh '(objectclass=group)' cn:
-This returns the cn attribute of a group
+./adsearch.sh '(objectclass=group)' cn:  |This returns the cn attribute of a group
 
-./adsearch.sh '(objectclass=user)' cn:
-This returns the cn attribute of a user
+./adsearch.sh '(objectclass=user)' cn:  |This returns the cn attribute of a user
 
-./adsearch.sh 'cn= jonathan locke' memberof
-This returns the membership of groups for cn=jonathan locke
+./adsearch.sh 'cn= jonathan locke' memberof  |This returns the group membership for cn=jonathan locke
 
